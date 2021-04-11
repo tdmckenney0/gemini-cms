@@ -1,0 +1,21 @@
+{
+    "name": "tanner/gemini-cms",
+    "description": "Gemini CMS",
+    "type": "project",
+    "license": "IDGAF",
+    "authors": [
+        {
+            "name": "Tanner Mckenney",
+            "email": "tmckenney7@outlook.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tdmckenney0/titan-II.git"
+        }
+    ],
+    "require": {
+        "tdmckenney0/titan-ii": "dev-main"
+    }
+}
