@@ -16,6 +16,10 @@
         }
     ],
     "require": {
-        "tdmckenney0/titan-ii": "dev-main"
+        "tdmckenney0/titan-ii": "dev-main",
+        "illuminate/database": "^8.36",
+        "illuminate/contracts": "^8.36",
+        "illuminate/support": "^8.36",
+        "illuminate/events": "^8.36"
     }
 }
