@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "85e741b5bb76059166a365b73b2272b4",
+    "packages": [
+        {
+            "name": "tdmckenney0/titan-ii",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdmckenney0/titan-II.git",
+                "reference": "3f0594960e0d1aefeee4e1ea4f898376036e37b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdmckenney0/titan-II/zipball/3f0594960e0d1aefeee4e1ea4f898376036e37b2",
+                "reference": "3f0594960e0d1aefeee4e1ea4f898376036e37b2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Tanner Mckenney",
+                    "email": "tmckenney7@outlook.com"
+                }
+            ],
+            "description": "Gemini Protocol Library",
+            "support": {
+                "source": "https://github.com/tdmckenney0/titan-II/tree/main",
+                "issues": "https://github.com/tdmckenney0/titan-II/issues"
+            },
+            "time": "2021-02-10T07:41:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tdmckenney0/titan-ii": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
