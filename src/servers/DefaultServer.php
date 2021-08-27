@@ -32,7 +32,7 @@ class DefaultServer extends AbstractServer
             $response->setMeta('/index');
         }
 
-        echo sprintf('[%s %s]: %s' . PHP_EOL, $response->getCode(), $response->getMeta(), $request);
+        echo sprintf('[%s %s]: %s' . PHP_EOL, $response->getCode(), $request->getPath(), $response->getMeta());
 
         return $response;
     }
