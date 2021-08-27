@@ -15,3 +15,33 @@ Uses Titan-II for the protocol layer.
  2. Add you `cert.pem` and `key.rsa` files to `certs/`
  3. Run composer: `composer install`
  4. Run `php test/test_DefaultServer.php`
+
+
+## Directories
+
+ - `certs`
+    + Security Certificates.
+ - `config`
+    + Configuration Data.
+ - `db`
+    + Database-related files and instances. 
+ - `files`
+    + Files store on a CDN, Distributed Network, Network share, Torrent, etc. 
+ - `public`
+    + Files served directly over gemini.
+ - `src`
+    + Application source code.
+ - `src/controllers`
+    + Application Controllers
+ - `src/models`
+    + Eloquent Data Models for interacting with a data source.
+ - `src/servers`
+    + Microservers that can serve groups of controllers.
+ - `views`
+    + Templates for Gemini views.
+ - `test`
+    + Application tests
+ - `tmp`
+    + Temporary File storage
+ - `vendor`
+    + `composer`-installed libraries.
