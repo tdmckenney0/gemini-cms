@@ -22,4 +22,11 @@ class Page extends Model
      * @var string
      */
     protected $primaryKey = 'id';
+
+    /**
+     * Fields that can be filled.
+     * 
+     * @var array
+     */
+    protected $fillable = ['slug', 'title', 'body'];
 }
