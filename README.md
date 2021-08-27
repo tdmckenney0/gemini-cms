@@ -1,13 +1,12 @@
 # gemini-cms
 
-Small CMS for the Gemini Protocol. 
+This is an application skeleton built to serve as a barebones Gemini CMS. The goal is to have a starting point for capsule developers, as well as a great out-of-the-box CMS (somewhere between Wordpress + Laravel).
 
- - [gemini://gemini.circumlunar.space/](gemini://gemini.circumlunar.space/)
- - [https://gemini.circumlunar.space/](https://gemini.circumlunar.space/)
-
-Uses Titan-II for the protocol layer. 
-
- - [https://github.com/tdmckenney0/titan-II](https://github.com/tdmckenney0/titan-II)
+- Gemini Protocol
+    + [gemini://gemini.circumlunar.space/](gemini://gemini.circumlunar.space/)
+    + [https://gemini.circumlunar.space/](https://gemini.circumlunar.space/)
+ - Titan-II PHP Library
+    + [https://github.com/tdmckenney0/titan-II](https://github.com/tdmckenney0/titan-II)
 
 ## Setup
 
@@ -15,7 +14,6 @@ Uses Titan-II for the protocol layer.
  2. Add you `cert.pem` and `key.rsa` files to `certs/`
  3. Run composer: `composer install`
  4. Run `php test/test_DefaultServer.php`
-
 
 ## Directories
 
@@ -26,9 +24,9 @@ Uses Titan-II for the protocol layer.
  - `db`
     + Database-related files and instances. 
  - `files`
-    + Files store on a CDN, Distributed Network, Network share, Torrent, etc. 
+    + Files synced from external sources ("uploads") by users, e.g. IPFS, Torrent, GDrive, etc... for the backend to work with. 
  - `public`
-    + Files served directly over gemini.
+    + Files served directly over gemini to the client.
  - `src`
     + Application source code.
  - `src/controllers`
