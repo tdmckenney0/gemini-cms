@@ -14,6 +14,7 @@ This is an application skeleton built to serve as a barebones Gemini CMS. The go
  2. Add you `cert.pem` and `key.rsa` files to `certs/`
  3. Run composer: `composer install`
  4. Run `php test/test_DefaultServer.php`
+ 5. Navigate to `gemini://127.0.0.1/`
 
 ## Directories
 
