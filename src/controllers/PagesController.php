@@ -67,6 +67,25 @@ class PagesController extends AbstractController
     }
 
     /**
+     * Delete a Page
+     * 
+     * @param int The Page ID
+     * 
+     * @return Response TitanII/Response
+     */
+    public function delete(int $id): Response
+    {
+        Page::destroy($id);
+
+        $response = new Response();
+
+        $response->setCode(30);
+        $response->setMeta('/index');
+
+        return $response;
+    }
+
+    /**
      * Create a Page in the CMS. 
      * 
      * @param string Action. 
