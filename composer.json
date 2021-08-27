@@ -1,8 +1,8 @@
 {
-    "name": "tanner/gemini-cms",
+    "name": "tdmckenney0/gemini-cms",
     "description": "Gemini CMS",
     "type": "project",
-    "license": "IDGAF",
+    "license": "GPLv3",
     "authors": [
         {
             "name": "Tanner Mckenney",
