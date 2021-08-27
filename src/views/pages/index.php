@@ -4,6 +4,8 @@
 => /view/<?= $page->id; ?> <?= $page->title ?? $page->id; ?> <?= "\r\n" ?>
 <?php endforeach; ?>
 
+=> /add Create New Page
+
 ## Debug
 
 ```
