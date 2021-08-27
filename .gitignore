@@ -1,5 +1,2 @@
 # Composer directories
 /vendor/
-
-# Temp Dir
-/tmp/
