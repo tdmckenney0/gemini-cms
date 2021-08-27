@@ -5,7 +5,7 @@ namespace App\Servers;
 use TitanII\Request;
 use TitanII\Response;
 
-use App\PagesController;
+use App\Controllers\PagesController;
 
 class DefaultServer extends AbstractServer
 {

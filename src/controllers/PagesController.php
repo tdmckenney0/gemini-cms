@@ -1,9 +1,8 @@
 <?php
 
-namespace App;
+namespace App\Controllers;
 
-use App\AbstractController;
-use Models\Page;
+use App\Models\Page;
 
 use TitanII\Request;
 use TitanII\Response;
