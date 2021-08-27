@@ -29,7 +29,7 @@ class DefaultServer extends AbstractServer
             $response = $controller->{$action}(...$path);
         } else {
             $response->setCode(30);
-            $response->setMeta('/view/1');
+            $response->setMeta('/index');
         }
 
         echo sprintf('[%s %s]: %s' . PHP_EOL, $response->getCode(), $response->getMeta(), $request);
